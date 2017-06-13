@@ -1,0 +1,424 @@
+/*
+  SASS variables are information about icon's compiled state, stored under its original file name
+
+  .icon-home
+    width: $icon-home-width
+
+  The large array-like variables contain all information about a single icon
+  $icon-home: x y offset_x offset_y width height total_width total_height image_path
+
+  At the bottom of this section, we provide information about the spritesheet itself
+  $spritesheet: width height image $spritesheet-sprites
+  */
+$checkbox-name: 'checkbox'
+$checkbox-x: 169px
+$checkbox-y: 346px
+$checkbox-offset-x: -169px
+$checkbox-offset-y: -346px
+$checkbox-width: 33px
+$checkbox-height: 33px
+$checkbox-total-width: 501px
+$checkbox-total-height: 472px
+$checkbox-image: 'sprite.png'
+$checkbox: (169px, 346px, -169px, -346px, 33px, 33px, 501px, 472px, 'sprite.png', 'checkbox', )
+$facts-awards-white-name: 'facts-awards-white'
+$facts-awards-white-x: 232px
+$facts-awards-white-y: 217px
+$facts-awards-white-offset-x: -232px
+$facts-awards-white-offset-y: -217px
+$facts-awards-white-width: 67px
+$facts-awards-white-height: 56px
+$facts-awards-white-total-width: 501px
+$facts-awards-white-total-height: 472px
+$facts-awards-white-image: 'sprite.png'
+$facts-awards-white: (232px, 217px, -232px, -217px, 67px, 56px, 501px, 472px, 'sprite.png', 'facts-awards-white', )
+$facts-awards-name: 'facts-awards'
+$facts-awards-x: 299px
+$facts-awards-y: 217px
+$facts-awards-offset-x: -299px
+$facts-awards-offset-y: -217px
+$facts-awards-width: 67px
+$facts-awards-height: 56px
+$facts-awards-total-width: 501px
+$facts-awards-total-height: 472px
+$facts-awards-image: 'sprite.png'
+$facts-awards: (299px, 217px, -299px, -217px, 67px, 56px, 501px, 472px, 'sprite.png', 'facts-awards', )
+$facts-home-white-name: 'facts-home-white'
+$facts-home-white-x: 366px
+$facts-home-white-y: 217px
+$facts-home-white-offset-x: -366px
+$facts-home-white-offset-y: -217px
+$facts-home-white-width: 64px
+$facts-home-white-height: 54px
+$facts-home-white-total-width: 501px
+$facts-home-white-total-height: 472px
+$facts-home-white-image: 'sprite.png'
+$facts-home-white: (366px, 217px, -366px, -217px, 64px, 54px, 501px, 472px, 'sprite.png', 'facts-home-white', )
+$facts-home-name: 'facts-home'
+$facts-home-x: 430px
+$facts-home-y: 217px
+$facts-home-offset-x: -430px
+$facts-home-offset-y: -217px
+$facts-home-width: 64px
+$facts-home-height: 54px
+$facts-home-total-width: 501px
+$facts-home-total-height: 472px
+$facts-home-image: 'sprite.png'
+$facts-home: (430px, 217px, -430px, -217px, 64px, 54px, 501px, 472px, 'sprite.png', 'facts-home', )
+$facts-list-white-name: 'facts-list-white'
+$facts-list-white-x: 54px
+$facts-list-white-y: 346px
+$facts-list-white-offset-x: -54px
+$facts-list-white-offset-y: -346px
+$facts-list-white-width: 54px
+$facts-list-white-height: 59px
+$facts-list-white-total-width: 501px
+$facts-list-white-total-height: 472px
+$facts-list-white-image: 'sprite.png'
+$facts-list-white: (54px, 346px, -54px, -346px, 54px, 59px, 501px, 472px, 'sprite.png', 'facts-list-white', )
+$facts-list-name: 'facts-list'
+$facts-list-x: 0px
+$facts-list-y: 346px
+$facts-list-offset-x: 0px
+$facts-list-offset-y: -346px
+$facts-list-width: 54px
+$facts-list-height: 59px
+$facts-list-total-width: 501px
+$facts-list-total-height: 472px
+$facts-list-image: 'sprite.png'
+$facts-list: (0px, 346px, 0px, -346px, 54px, 59px, 501px, 472px, 'sprite.png', 'facts-list', )
+$facts-microphone-white-name: 'facts-microphone-white'
+$facts-microphone-white-x: 44px
+$facts-microphone-white-y: 405px
+$facts-microphone-white-offset-x: -44px
+$facts-microphone-white-offset-y: -405px
+$facts-microphone-white-width: 44px
+$facts-microphone-white-height: 67px
+$facts-microphone-white-total-width: 501px
+$facts-microphone-white-total-height: 472px
+$facts-microphone-white-image: 'sprite.png'
+$facts-microphone-white: (44px, 405px, -44px, -405px, 44px, 67px, 501px, 472px, 'sprite.png', 'facts-microphone-white', )
+$facts-microphone-name: 'facts-microphone'
+$facts-microphone-x: 0px
+$facts-microphone-y: 405px
+$facts-microphone-offset-x: 0px
+$facts-microphone-offset-y: -405px
+$facts-microphone-width: 44px
+$facts-microphone-height: 67px
+$facts-microphone-total-width: 501px
+$facts-microphone-total-height: 472px
+$facts-microphone-image: 'sprite.png'
+$facts-microphone: (0px, 405px, 0px, -405px, 44px, 67px, 501px, 472px, 'sprite.png', 'facts-microphone', )
+$facts-radio-white-name: 'facts-radio-white'
+$facts-radio-white-x: 223px
+$facts-radio-white-y: 277px
+$facts-radio-white-offset-x: -223px
+$facts-radio-white-offset-y: -277px
+$facts-radio-white-width: 65px
+$facts-radio-white-height: 53px
+$facts-radio-white-total-width: 501px
+$facts-radio-white-total-height: 472px
+$facts-radio-white-image: 'sprite.png'
+$facts-radio-white: (223px, 277px, -223px, -277px, 65px, 53px, 501px, 472px, 'sprite.png', 'facts-radio-white', )
+$facts-radio-name: 'facts-radio'
+$facts-radio-x: 158px
+$facts-radio-y: 277px
+$facts-radio-offset-x: -158px
+$facts-radio-offset-y: -277px
+$facts-radio-width: 65px
+$facts-radio-height: 53px
+$facts-radio-total-width: 501px
+$facts-radio-total-height: 472px
+$facts-radio-image: 'sprite.png'
+$facts-radio: (158px, 277px, -158px, -277px, 65px, 53px, 501px, 472px, 'sprite.png', 'facts-radio', )
+$form-mail-name: 'form-mail'
+$form-mail-x: 265px
+$form-mail-y: 346px
+$form-mail-offset-x: -265px
+$form-mail-offset-y: -346px
+$form-mail-width: 31px
+$form-mail-height: 23px
+$form-mail-total-width: 501px
+$form-mail-total-height: 472px
+$form-mail-image: 'sprite.png'
+$form-mail: (265px, 346px, -265px, -346px, 31px, 23px, 501px, 472px, 'sprite.png', 'form-mail', )
+$form-name-name: 'form-name'
+$form-name-x: 117px
+$form-name-y: 405px
+$form-name-offset-x: -117px
+$form-name-offset-y: -405px
+$form-name-width: 24px
+$form-name-height: 27px
+$form-name-total-width: 501px
+$form-name-total-height: 472px
+$form-name-image: 'sprite.png'
+$form-name: (117px, 405px, -117px, -405px, 24px, 27px, 501px, 472px, 'sprite.png', 'form-name', )
+$form-phone-name: 'form-phone'
+$form-phone-x: 236px
+$form-phone-y: 346px
+$form-phone-offset-x: -236px
+$form-phone-offset-y: -346px
+$form-phone-width: 29px
+$form-phone-height: 29px
+$form-phone-total-width: 501px
+$form-phone-total-height: 472px
+$form-phone-image: 'sprite.png'
+$form-phone: (236px, 346px, -236px, -346px, 29px, 29px, 501px, 472px, 'sprite.png', 'form-phone', )
+$form-send-name: 'form-send'
+$form-send-x: 202px
+$form-send-y: 346px
+$form-send-offset-x: -202px
+$form-send-offset-y: -346px
+$form-send-width: 34px
+$form-send-height: 31px
+$form-send-total-width: 501px
+$form-send-total-height: 472px
+$form-send-image: 'sprite.png'
+$form-send: (202px, 346px, -202px, -346px, 34px, 31px, 501px, 472px, 'sprite.png', 'form-send', )
+$h2-about-name: 'h2-about'
+$h2-about-x: 333px
+$h2-about-y: 277px
+$h2-about-offset-x: -333px
+$h2-about-offset-y: -277px
+$h2-about-width: 42px
+$h2-about-height: 42px
+$h2-about-total-width: 501px
+$h2-about-total-height: 472px
+$h2-about-image: 'sprite.png'
+$h2-about: (333px, 277px, -333px, -277px, 42px, 42px, 501px, 472px, 'sprite.png', 'h2-about', )
+$h2-camera-name: 'h2-camera'
+$h2-camera-x: 364px
+$h2-camera-y: 180px
+$h2-camera-offset-x: -364px
+$h2-camera-offset-y: -180px
+$h2-camera-width: 43px
+$h2-camera-height: 36px
+$h2-camera-total-width: 501px
+$h2-camera-total-height: 472px
+$h2-camera-image: 'sprite.png'
+$h2-camera: (364px, 180px, -364px, -180px, 43px, 36px, 501px, 472px, 'sprite.png', 'h2-camera', )
+$h2-diamond-name: 'h2-diamond'
+$h2-diamond-x: 407px
+$h2-diamond-y: 180px
+$h2-diamond-offset-x: -407px
+$h2-diamond-offset-y: -180px
+$h2-diamond-width: 40px
+$h2-diamond-height: 36px
+$h2-diamond-total-width: 501px
+$h2-diamond-total-height: 472px
+$h2-diamond-image: 'sprite.png'
+$h2-diamond: (407px, 180px, -407px, -180px, 40px, 36px, 501px, 472px, 'sprite.png', 'h2-diamond', )
+$h2-facts-name: 'h2-facts'
+$h2-facts-x: 88px
+$h2-facts-y: 405px
+$h2-facts-offset-x: -88px
+$h2-facts-offset-y: -405px
+$h2-facts-width: 29px
+$h2-facts-height: 36px
+$h2-facts-total-width: 501px
+$h2-facts-total-height: 472px
+$h2-facts-image: 'sprite.png'
+$h2-facts: (88px, 405px, -88px, -405px, 29px, 36px, 501px, 472px, 'sprite.png', 'h2-facts', )
+$h2-heart-name: 'h2-heart'
+$h2-heart-x: 447px
+$h2-heart-y: 277px
+$h2-heart-offset-x: -447px
+$h2-heart-offset-y: -277px
+$h2-heart-width: 36px
+$h2-heart-height: 34px
+$h2-heart-total-width: 501px
+$h2-heart-total-height: 472px
+$h2-heart-image: 'sprite.png'
+$h2-heart: (447px, 277px, -447px, -277px, 36px, 34px, 501px, 472px, 'sprite.png', 'h2-heart', )
+$h2-mail-name: 'h2-mail'
+$h2-mail-x: 447px
+$h2-mail-y: 180px
+$h2-mail-offset-x: -447px
+$h2-mail-offset-y: -180px
+$h2-mail-width: 42px
+$h2-mail-height: 30px
+$h2-mail-total-width: 501px
+$h2-mail-total-height: 472px
+$h2-mail-image: 'sprite.png'
+$h2-mail: (447px, 180px, -447px, -180px, 42px, 30px, 501px, 472px, 'sprite.png', 'h2-mail', )
+$logo-name: 'logo'
+$logo-x: 0px
+$logo-y: 0px
+$logo-offset-x: 0px
+$logo-offset-y: 0px
+$logo-width: 321px
+$logo-height: 217px
+$logo-total-width: 501px
+$logo-total-height: 472px
+$logo-image: 'sprite.png'
+$logo: (0px, 0px, 0px, 0px, 321px, 217px, 501px, 472px, 'sprite.png', 'logo', )
+$rings-name: 'rings'
+$rings-x: 158px
+$rings-y: 217px
+$rings-offset-x: -158px
+$rings-offset-y: -217px
+$rings-width: 74px
+$rings-height: 60px
+$rings-total-width: 501px
+$rings-total-height: 472px
+$rings-image: 'sprite.png'
+$rings: (158px, 217px, -158px, -217px, 74px, 60px, 501px, 472px, 'sprite.png', 'rings', )
+$slider-next-name: 'slider-next'
+$slider-next-x: 0px
+$slider-next-y: 217px
+$slider-next-offset-x: 0px
+$slider-next-offset-y: -217px
+$slider-next-width: 79px
+$slider-next-height: 129px
+$slider-next-total-width: 501px
+$slider-next-total-height: 472px
+$slider-next-image: 'sprite.png'
+$slider-next: (0px, 217px, 0px, -217px, 79px, 129px, 501px, 472px, 'sprite.png', 'slider-next', )
+$slider-prev-name: 'slider-prev'
+$slider-prev-x: 79px
+$slider-prev-y: 217px
+$slider-prev-offset-x: -79px
+$slider-prev-offset-y: -217px
+$slider-prev-width: 79px
+$slider-prev-height: 129px
+$slider-prev-total-width: 501px
+$slider-prev-total-height: 472px
+$slider-prev-image: 'sprite.png'
+$slider-prev: (79px, 217px, -79px, -217px, 79px, 129px, 501px, 472px, 'sprite.png', 'slider-prev', )
+$sn-inst-name: 'sn-inst'
+$sn-inst-x: 412px
+$sn-inst-y: 277px
+$sn-inst-offset-x: -412px
+$sn-inst-offset-y: -277px
+$sn-inst-width: 35px
+$sn-inst-height: 35px
+$sn-inst-total-width: 501px
+$sn-inst-total-height: 472px
+$sn-inst-image: 'sprite.png'
+$sn-inst: (412px, 277px, -412px, -277px, 35px, 35px, 501px, 472px, 'sprite.png', 'sn-inst', )
+$sn-vk-name: 'sn-vk'
+$sn-vk-x: 135px
+$sn-vk-y: 346px
+$sn-vk-offset-x: -135px
+$sn-vk-offset-y: -346px
+$sn-vk-width: 34px
+$sn-vk-height: 35px
+$sn-vk-total-width: 501px
+$sn-vk-total-height: 472px
+$sn-vk-image: 'sprite.png'
+$sn-vk: (135px, 346px, -135px, -346px, 34px, 35px, 501px, 472px, 'sprite.png', 'sn-vk', )
+$type-cake-name: 'type-cake'
+$type-cake-x: 375px
+$type-cake-y: 277px
+$type-cake-offset-x: -375px
+$type-cake-offset-y: -277px
+$type-cake-width: 37px
+$type-cake-height: 37px
+$type-cake-total-width: 501px
+$type-cake-total-height: 472px
+$type-cake-image: 'sprite.png'
+$type-cake: (375px, 277px, -375px, -277px, 37px, 37px, 501px, 472px, 'sprite.png', 'type-cake', )
+$type-corp-name: 'type-corp'
+$type-corp-x: 321px
+$type-corp-y: 180px
+$type-corp-offset-x: -321px
+$type-corp-offset-y: -180px
+$type-corp-width: 43px
+$type-corp-height: 37px
+$type-corp-total-width: 501px
+$type-corp-total-height: 472px
+$type-corp-image: 'sprite.png'
+$type-corp: (321px, 180px, -321px, -180px, 43px, 37px, 501px, 472px, 'sprite.png', 'type-corp', )
+$type-vipusk-name: 'type-vipusk'
+$type-vipusk-x: 108px
+$type-vipusk-y: 346px
+$type-vipusk-offset-x: -108px
+$type-vipusk-offset-y: -346px
+$type-vipusk-width: 27px
+$type-vipusk-height: 51px
+$type-vipusk-total-width: 501px
+$type-vipusk-total-height: 472px
+$type-vipusk-image: 'sprite.png'
+$type-vipusk: (108px, 346px, -108px, -346px, 27px, 51px, 501px, 472px, 'sprite.png', 'type-vipusk', )
+$type-wedding-name: 'type-wedding'
+$type-wedding-x: 288px
+$type-wedding-y: 277px
+$type-wedding-offset-x: -288px
+$type-wedding-offset-y: -277px
+$type-wedding-width: 45px
+$type-wedding-height: 42px
+$type-wedding-total-width: 501px
+$type-wedding-total-height: 472px
+$type-wedding-image: 'sprite.png'
+$type-wedding: (288px, 277px, -288px, -277px, 45px, 42px, 501px, 472px, 'sprite.png', 'type-wedding', )
+$video-play-name: 'video-play'
+$video-play-x: 321px
+$video-play-y: 0px
+$video-play-offset-x: -321px
+$video-play-offset-y: 0px
+$video-play-width: 180px
+$video-play-height: 180px
+$video-play-total-width: 501px
+$video-play-total-height: 472px
+$video-play-image: 'sprite.png'
+$video-play: (321px, 0px, -321px, 0px, 180px, 180px, 501px, 472px, 'sprite.png', 'video-play', )
+$spritesheet-width: 501px
+$spritesheet-height: 472px
+$spritesheet-image: 'sprite.png'
+$spritesheet-sprites: ($checkbox, $facts-awards-white, $facts-awards, $facts-home-white, $facts-home, $facts-list-white, $facts-list, $facts-microphone-white, $facts-microphone, $facts-radio-white, $facts-radio, $form-mail, $form-name, $form-phone, $form-send, $h2-about, $h2-camera, $h2-diamond, $h2-facts, $h2-heart, $h2-mail, $logo, $rings, $slider-next, $slider-prev, $sn-inst, $sn-vk, $type-cake, $type-corp, $type-vipusk, $type-wedding, $video-play, )
+$spritesheet: (501px, 472px, 'sprite.png', $spritesheet-sprites, )
+
+/*
+  The provided mixins are intended to be used with the array-like variables
+
+  .icon-home
+    @include sprite-width($icon-home)
+
+  .icon-email
+    @include sprite($icon-email)
+
+  Example usage in HTML:
+    `display: block` sprite:
+    <div class="icon-home"></div>
+
+  To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+    // CSS
+    .icon {
+      display: inline-block;
+    }
+
+    // HTML
+    <i class="icon icon-home"></i>
+  */
+@mixin sprite-width($sprite)
+  width: nth($sprite, 5)
+
+@mixin sprite-height($sprite)
+  height: nth($sprite, 6)
+
+@mixin sprite-position($sprite)
+  $sprite-offset-x: nth($sprite, 3)
+  $sprite-offset-y: nth($sprite, 4)
+  background-position: $sprite-offset-x  $sprite-offset-y
+
+@mixin sprite-image($sprite)
+  $sprite-image: nth($sprite, 9)
+  background-image: url(#{$sprite-image})
+
+@mixin sprite($sprite)
+  @include sprite-image($sprite)
+  @include sprite-position($sprite)
+  @include sprite-width($sprite)
+  @include sprite-height($sprite)
+
+/*
+  The `sprites` mixin generates identical output to the CSS template
+    but can be overridden inside of SASS
+
+  @include sprites($spritesheet-sprites)
+  */
+@mixin sprites($sprites)
+  @each $sprite in $sprites
+    $sprite-name: nth($sprite, 10)
+    .#{$sprite-name}
+      @include sprite($sprite)

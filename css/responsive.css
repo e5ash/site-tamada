@@ -1,0 +1,197 @@
+@media screen and (max-width: 1690px) {
+  #main .container > .top .btn-menu {
+    border: 2px solid #fff; }
+    #main .container > .top .btn-menu span {
+      background: #fff; }
+  #about p {
+    margin-left: 40%; } }
+
+@media screen and (max-width: 1480px) {
+  #main {
+    background: none; }
+    #main .container > .top .btn-menu {
+      border: 2px solid #000; }
+      #main .container > .top .btn-menu span {
+        background: #000; } }
+
+@media screen and (max-width: 1160px) {
+  #reviews .left {
+    width: 40%; }
+  #reviews .right {
+    width: 55%;
+    margin-left: 5%; }
+  #media .slider .nav {
+    display: none; }
+  #media .video {
+    width: 100%; }
+    #media .video iframe {
+      width: 100%; }
+  #price .row {
+    text-align: center; }
+  #price .col {
+    display: inline-block;
+    float: none;
+    margin-bottom: 40px; }
+    #price .col ul {
+      text-align: left; }
+  #footer .top .tel {
+    display: none; } }
+
+@media screen and (max-width: 1040px) {
+  #main .top .logo {
+    margin-right: 10% !important; }
+  #main .center .col {
+    float: none; }
+  #main .center .left {
+    width: 100%;
+    margin: 0 auto 40px; }
+    #main .center .left iframe {
+      width: 100%; }
+  #main .center .right {
+    margin: 0 auto 40px;
+    width: 350px;
+    text-align: center !important; }
+    #main .center .right h3 {
+      text-align: center !important; }
+  #about {
+    background-position: 56% 90px; }
+    #about p {
+      margin-left: 0;
+      margin-top: 520px; }
+  #facts .container {
+    background: none; } }
+
+@media screen and (max-width: 890px) {
+  #main .top .contacts {
+    padding-top: 20px;
+    font-size: 22px !important; }
+  #main .top .logo {
+    margin-right: 4% !important; } }
+
+@media screen and (max-width: 815px) {
+  #facts .col {
+    float: none;
+    width: 100%;
+    margin: 0 auto; }
+    #facts .col div {
+      margin: 0 auto; }
+    #facts .col span {
+      float: right !important; }
+  #media .slider .item div {
+    display: none; }
+  #media .slider .item img {
+    width: 100%; }
+  #media .slider .slick-arrow {
+    display: none !important; }
+  #media .video iframe {
+    height: 250px; }
+  #price .col {
+    width: 100%;
+    margin: 0 auto 40px !important; } }
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 32px; }
+    h2 .icon {
+      display: none; }
+  h3 {
+    font-size: 24px; }
+  .col {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+  #main .top .nav {
+    top: 255px !important; }
+  #main .top .contacts {
+    width: auto !important;
+    text-align: left; }
+    #main .top .contacts .email {
+      margin-top: 0 !important; }
+  #main .top .btn-menu {
+    margin-top: 22px !important; }
+  #main .top .logo {
+    margin: 20px auto 0 !important;
+    float: none;
+    text-align: center; }
+  #main .bottom {
+    width: -webkit-calc(100% - 60px) !important;
+    width: calc(100% - 60px) !important; }
+    #main .bottom .round {
+      margin: 0 auto 50px !important; }
+  #subscribe .input input {
+    width: -webkit-calc(100% - 85px);
+    width: calc(100% - 85px); }
+  #subscribe .right textarea {
+    margin-top: 0;
+    width: -webkit-calc(100% - 55px);
+    width: calc(100% - 55px); }
+  #subscribe .btn {
+    margin: 0 auto 30px;
+    width: 100%; }
+  #subscribe .data {
+    display: block;
+    margin: 0 auto; }
+  #subscribe p {
+    text-align: center; }
+  #footer .top {
+    display: none; } }
+
+@media screen and (max-width: 670px) {
+  #reviews h3 {
+    text-align: center !important; }
+  #reviews .col {
+    margin-left: auto;
+    width: 100%;
+    text-align: center; }
+  #reviews .right {
+    margin-top: 40px; } }
+
+@media screen and (max-width: 530px) {
+  #main .center .left iframe {
+    height: 250px; } }
+
+@media screen and (max-width: 430px) {
+  #about {
+    background-position: 23% 90px; }
+    #about p {
+      margin-left: -15px;
+      margin-right: -15px;
+      -webkit-border-radius: 0;
+              border-radius: 0;
+      font-size: 20px;
+      line-height: 30px; }
+  #facts .col div {
+    width: 90%; }
+    #facts .col div p {
+      width: 100%; }
+    #facts .col div span {
+      display: none;
+      float: none !important;
+      margin: 0 auto; }
+  #price .col ul.checked {
+    padding-bottom: 10px; }
+    #price .col ul.checked li {
+      font-size: 20px; }
+  #price .col p {
+    font-size: 22px; } }
+
+@media screen and (max-width: 410px) {
+  #main .container > .top .logo {
+    width: 100%;
+    height: 100%; }
+    #main .container > .top .logo img {
+      width: 100%; }
+  #main .container > .top .contacts {
+    font-size: 18px !important; }
+  #main .center .right {
+    width: 100% !important; } }
+
+@media screen and (max-width: 360px) {
+  #main .top .nav {
+    top: 240px !important; } }
+
+@media screen and (max-width: 340px) {
+  #main .container > .top .contacts {
+    font-size: 16px !important; }
+  #main .top .nav {
+    top: 220px !important; } }
